@@ -15,14 +15,30 @@ body {
 .container h2{
   margin-top: -40px;
   letter-spacing: 50px;
-  
-  
 }
+.srch{
+  display: flex;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.srch input{
+  border: none;
+  height: 32px;
+  border-bottom: 2px solid #e0a7f6;
+  margin-left:  10px;
+}
+
 .mainDiv {
+  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  height: 600px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  height: 90%;
+  background-color: rgba(255, 255, 255, 0.129);
+  border-radius:100px;
   
 }
 .pokeDiv {
@@ -53,24 +69,10 @@ body {
   height: 120px;
 }
 
-.pokeMapDiv small {
+.pokeMapDiv h5 {
   text-transform: capitalize;
 }
 
-.srch{
-  display: flex;
-  /* border: 2px solid red; */
-  margin-top: 50px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.srch input{
-  border: none;
-  height: 32px;
-  border-bottom: 2px solid #e0a7f6;
-  margin-left:  10px;
-}
 
 /* colors according type */
 .rock {

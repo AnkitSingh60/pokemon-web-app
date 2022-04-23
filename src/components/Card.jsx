@@ -9,7 +9,7 @@ const Card = ({image, name, type}) => {
     <h3>{name}</h3>
     <img src={image} alt="pokemon" />
     <div>
-      <small>Type: {type}</small>
+      <h5>Type: {type}</h5>
     </div>
   </div>
     
