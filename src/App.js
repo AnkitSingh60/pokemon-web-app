@@ -16,7 +16,7 @@ function App() {
   const [isModalVisible, setIsModalVisible] = useState(false);
   const [id, setId] = useState(null);
   const fetchTenPokemon = async () => {
-    const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=24")
+    const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=40")
     const pokeData = await res.json();
     const pokeNames = pokeData.results
 
