@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.container h2{
+  margin-top: -40px;
+  letter-spacing: 50px;
+  
+  
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  height: 600px;
+  
+}
+.pokeDiv {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.pokeMapDiv {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid #fbfbfb;
+  border-radius: 50px;
+  min-width: 160px; 
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  cursor: pointer;
+}
+
+.pokeMapDiv img {
+  width: 120px;
+  height: 120px;
+}
+
+.pokeMapDiv small {
+  text-transform: capitalize;
+}
+
+.srch{
+  display: flex;
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.srch input{
+  border: none;
+  height: 32px;
+  border-bottom: 2px solid #e0a7f6;
+  margin-left:  10px;
+}
+
+/* colors according type */
+.rock {
+  background-color: rgb(148, 81, 81);
+}
+.ghost {
+  background-color: rgb(247, 247, 247);
+}
+.electric {
+  background-color: rgb(255, 255, 161);
+}
+.bug {
+  background-color: #F6D6A7;
+}
+.poison {
+  background-color: #e0a7f6;
+}
+.normal {
+  background-color: #F4F4F4;
+}
+.fairy {
+  background-color: rgba(255, 192, 203, 0.863);
+}
+.fire {
+  background-color: #ffac53;
+}
+.grass {
+  background-color:#a5f6a2;
+}
+.water {
+  background-color:#48aef8;
+}
+
+
